@@ -1,0 +1,5 @@
+javascript:(function(){var userInput=prompt("Enter the new value to replace in the /wiki/ links:");if(userInput){document.querySelectorAll('a[href^="/wiki/"]').forEach(function(link){link.href="/wiki/"+userInput;});}})();
+
+How it works:
+It's injecting some JS code to replace anything link with this format: <a href="/wiki/(PLACEHOLDER)" title="(PLACEHOLDER)">(PLACEHOLDER)</a>
+It replaces (PLACEHOLDER) with the text you input, you can easily rank up wins and points with this.
