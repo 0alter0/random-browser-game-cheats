@@ -1,4 +1,5 @@
 javascript:(function(){var solveButton=document.getElementById('solve');if(solveButton){solveButton.click();}})();
+
 I was trying to make a cheat on this for a couple months by doing the most complicated stuff when all I had to do was edit a single element from "none"
 to "block" and it would solve the maze. For example, I was trying to find out how the mazes were generated, reverse engineer them, and then solve it with a bot.
 The script is literally just clicking a hidden element.
